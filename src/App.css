@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+.menu{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.navItem{
+  color:white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight:lighter;
+  font-family:sans-serif
+}
+
+.main-wrapper{
+  height: 80vh;
+}
+.wrapper-form{display: flex;
+  height: 100% !important;
+justify-content: center;
+align-items: center;
+}
+.wrapper-form form{
+  display:flex;
+  flex-direction: column;
+  width: 30%;
+
+}
+.inputfields{
+  margin:20px 0px;
+  padding: 10px;
+ 
+  border:none;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-block: none;
+}
+
+.card-home{
+  justify-content: center;
+  align-items:center ;
+}
+
+
+.image-card{
+  height:200px;
+  width: 100%;
+  object-fit: contain;
+}
